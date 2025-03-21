@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF Animado - Nicolás Monki</title>
+    <style>
+        body {
+            background-color: #3498db;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        button {
+            background-color: #1f618d;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nicolás eres un monki qlio ya sube a diamante</h1>
+        <img id="gif" src="https://media.tenor.com/q023GCiue5cAAAAi/monkey-monkey-dancing.gif" alt="GIF de Monki">
+        <br>
+        <button onclick="mostrarPregunta()">Picale aquí o click here pq ahora eri gringo</button>
+    </div>
+
+    <script>
+        function mostrarPregunta() {
+            let respuesta = confirm("¿Quieres jugar LoL uwu?");
+            if (respuesta) {
+                alert("Siempre confié");
+            } else {
+                alert("Por eso me smurfeo tu elo fakiu");
+            }
+        }
+    </script>
+</body>
+</html>
